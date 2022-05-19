@@ -17,3 +17,9 @@
 `type s1 = IsStringLiteral<'123'> // true`
 
 `type s2 = IsStringLiteral<string> // false`
+
+> `type IsNumber<S> = S extends number ? number extends S ? false: true : false`
+
+#### Conditional types [docs](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html)
+
+`T extends number`
