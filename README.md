@@ -1,4 +1,4 @@
-#№ Мои попытки разобраться в Typescript(Advanced Topic)
+# Мои попытки разобраться в Typescript(Advanced Topic)
 
 ## Advanced types
 
