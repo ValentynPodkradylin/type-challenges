@@ -32,3 +32,5 @@ type cases = [
 ];
 
 export type { FilterOut };
+
+type A = never extends never ? true : false;
