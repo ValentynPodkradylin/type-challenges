@@ -51,5 +51,7 @@ _Помогают итерироваться по елементам юнион 
 `type UnionIteration<T> = T extends unknown ? [T] : never`
 
 `UnionIteration<never> //never`
+
 `UnionIteration<1> // [1]`
+
 `UnionIteration<1 | 2> // [1] | [2]`
