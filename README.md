@@ -55,3 +55,7 @@ _Помогают итерироваться по елементам юнион 
 `UnionIteration<1> // [1]`
 
 `UnionIteration<1 | 2> // [1] | [2]`
+
+### Key remapping in Mapped Types (as)
+
+`type GetOption<T> = [K in typeof T as {} extends Pick<T, K> ? K : never] : T[K]`
